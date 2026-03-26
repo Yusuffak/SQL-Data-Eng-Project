@@ -19,32 +19,6 @@ flowchart LR
     DW --> E[MARKETING]
 ```
 
-flowchart LR
-    A[☁️ Custom Apps /\nEnterprise Apps] --> DW
-    B[📄 Logs, Files\n& Media] --> DW
-
-    subgraph DW [🗄️ DATA WAREHOUSE]
-        direction TB
-        S[🔵 STAGING]
-        R[🟢 REPORTING]
-        M[🟠 METADATA]
-        S --> R --> M
-    end
-
-    DW --> C[🗃️ SALES]
-    DW --> D[🗃️ FINANCE]
-    DW --> E[🗃️ MARKETING]
-
-    style DW fill:#1a1a2e,stroke:#4a90d9,color:#fff
-    style S fill:#4a90d9,color:#fff
-    style R fill:#5cb85c,color:#fff
-    style M fill:#f0a500,color:#fff
-    style A fill:#2d2d2d,stroke:#888,color:#fff
-    style B fill:#2d2d2d,stroke:#888,color:#fff
-    style C fill:#2c3e50,stroke:#888,color:#fff
-    style D fill:#2c3e50,stroke:#888,color:#fff
-    style E fill:#2c3e50,stroke:#888,color:#fff
-
 A star schema data warehouse design used to extract insights on skill demand, salary patterns, and optimal skill combinations for data engineering roles.
 
 Schema structure
