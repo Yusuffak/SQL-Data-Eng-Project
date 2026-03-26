@@ -1,6 +1,24 @@
  # Exploratory Data Analysis — Job market analytics with SQL
 ![Data Warehouse](https://www.astera.com/wp-content/uploads/2024/01/Data-Warehouse-Architecture.png)
 
+```mermaid
+flowchart LR
+    A[Custom Apps] --> DW
+    B[Logs & Files] --> DW
+
+    subgraph DW [DATA WAREHOUSE]
+        direction TB
+        S[STAGING]
+        R[REPORTING]
+        M[METADATA]
+        S --> R --> M
+    end
+
+    DW --> C[SALES]
+    DW --> D[FINANCE]
+    DW --> E[MARKETING]
+```
+
 flowchart LR
     A[☁️ Custom Apps /\nEnterprise Apps] --> DW
     B[📄 Logs, Files\n& Media] --> DW
