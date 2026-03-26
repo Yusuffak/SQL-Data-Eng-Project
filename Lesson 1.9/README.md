@@ -51,12 +51,14 @@ Starting off my first project on data engineering
 ## Exceutive Summary
 
 
-✅ Project Scope: Developed three analytical queries to address critical questions within the data engineering job market
-✅ Data Modeling: Leveraged multi-table joins across fact and dimension tables to generate meaningful insights
-✅ Analytics: Applied aggregations, filtering, and sorting to identify top skills based on demand, salary, and overall value
-✅ Outcomes: Produced actionable insights highlighting the dominance of SQL/Python, emerging cloud trends, and salary patterns
+## Executive Summary
 
-[questions] (C:\Users\HP\SQL_Data_Eng\Lesson 1.9\1.9_EDAsql)
+- ✅ **Project Scope:** Developed three analytical queries to address critical questions within the data engineering job market  
+- ✅ **Data Modeling:** Leveraged multi-table joins across fact and dimension tables to generate meaningful insights  
+- ✅ **Analytics:** Applied aggregations, filtering, and sorting to identify top skills based on demand, salary, and overall value  
+- ✅ **Outcomes:** Produced actionable insights highlighting the dominance of SQL/Python, emerging cloud trends, and salary patterns  
+
+📂 [View SQL Queries](1.9_EDAsql)
 
 ## Problem & Context
 
