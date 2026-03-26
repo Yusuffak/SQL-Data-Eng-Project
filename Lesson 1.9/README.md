@@ -127,3 +127,9 @@ By querying across these interconnected tables, I extracted insights about skill
 
 
 ## Tech Stock
+
+🐤 Query Engine: DuckDB for fast OLAP-style analytical queries
+🧮 Language: SQL (ANSI-style with analytical functions)
+📊 Data Model: Star schema with fact + dimension + bridge tables
+🛠️ Development: VS Code for SQL editing + Terminal for DuckDB CLI
+📦 Version Control: Git/GitHub for versioned SQL scripts
