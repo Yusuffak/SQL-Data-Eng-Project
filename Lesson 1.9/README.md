@@ -71,6 +71,52 @@ This project analyzes a data warehouse built using a star schema design. The war
 
 Data Warehouse Schema
 
+## 🗄️ Data Warehouse Schema
+```mermaid
+erDiagram
+    job_postings_fact {
+        int job_id PK
+        int company_id FK
+        string job_title_short
+        string job_title
+        string job_location
+        string job_via
+        string job_schedule_type
+        boolean job_work_from_home
+        string search_location
+        date job_posted_date
+        boolean job_no_degree_mention
+        boolean job_health_insurance
+        string job_country
+        string salary_rate
+        float salary_year_avg
+        float salary_hour_avg
+    }
+
+    company_dim {
+        int company_id PK
+        string name
+        string link
+        string link_google
+        string thumbnail
+    }
+
+    skills_dim {
+        int skill_id PK
+        string skills
+        string type
+    }
+
+    skills_job_dim {
+        int job_id PK_FK
+        int skill_id PK_FK
+    }
+
+    job_postings_fact ||--o{ skills_job_dim : "has"
+    skills_dim ||--o{ skills_job_dim : "tagged in"
+    company_dim ||--o{ job_postings_fact : "posts"
+```
+
 Fact Table: job_postings_fact - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 Dimension Tables:
 company_dim - Company information linked to job postings
