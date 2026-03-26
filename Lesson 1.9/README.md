@@ -1,5 +1,5 @@
  # Exploratory Data Analysis — Job market analytics with SQL
-[![Data Warehouse](https://www.astera.com/wp-content/uploads/2024/01/Data-Warehouse-Architecture.png)]
+![Data Warehouse](https://www.astera.com/wp-content/uploads/2024/01/Data-Warehouse-Architecture.png)
 
 A star schema data warehouse design used to extract insights on skill demand, salary patterns, and optimal skill combinations for data engineering roles.
 
