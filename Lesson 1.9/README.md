@@ -48,7 +48,6 @@ Resolves the many-to-many relationship between job postings and skills.
 
 Starting off my first project on data engineering
 
-## Exceutive Summary
 
 
 ## Executive Summary
